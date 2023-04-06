@@ -45,10 +45,8 @@ function ventanaFelicitaciones({ setVentanaFelicidades, ventanaFelicidades }) {
       <div
         style={{
           position: "absolute",
-          inset: "0px",
           margin: "auto",
           width: "300px",
-          height: "280px",
           borderRadius: "20px",
           backgroundColor: "white",
           overflow: "hidden",
