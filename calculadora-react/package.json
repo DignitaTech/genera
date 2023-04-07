@@ -1,6 +1,6 @@
 {
-  "homepage": "https://genera.dignita.tech",
-  "name": "calculadora-react",
+  "homepage": "https://github.com/DignitaTech/genera.git",
+  "name": "genera",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
