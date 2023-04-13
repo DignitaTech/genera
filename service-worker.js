@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DignitaTech/genera.git/precache-manifest.f8828177b9116b00d809545edca69bc7.js"
+  "/DignitaTech/genera.git/precache-manifest.2b072ee6ffb57180dd04b80d0a83166c.js"
 );
 
 workbox.clientsClaim();
