@@ -147,7 +147,10 @@ function Tabla({
     netROI: {
       nombre: "Net ROI",
       formula: "CA - CR",
-      leyenda: ["CA = Costo anual actualmente", "CR = Costo anual con el robo"],
+      leyenda: [
+        "CA = Costo anual actualmente",
+        "CR = Costo anual con el robot",
+      ],
     },
     /* ROI ACUMULADO */
     ROIAcumulado1: {
@@ -269,6 +272,7 @@ function Tabla({
           <p className="description-icon">Cerrar</p>
         </button>
       </div>
+      {/* La referencia está aquí */}
       <div
         ref={targetRef}
         style={{ ...CSS.tabla, margin: 10 }}

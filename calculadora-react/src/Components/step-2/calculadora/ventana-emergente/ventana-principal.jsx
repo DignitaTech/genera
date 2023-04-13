@@ -272,7 +272,8 @@ function VentanaPrincipal({
   };
   const cerrar = () => () => {
     botonCerrar();
-    modificarTabla(index, procesarDatos(FTEvalue));
+    let tabla = procesarDatos(FTEvalue);
+    modificarTabla(index, tabla);
   };
 
   const ventanaPrincipal = () => {

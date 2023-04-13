@@ -72,6 +72,7 @@ function MainPage(props) {
   }
   useEffect(() => {
     const handleResize = () => {
+      //Vista mobile
       if (window.innerWidth < 1169) {
         setResponsive(true);
 
@@ -108,7 +109,7 @@ function MainPage(props) {
 
     window.addEventListener("resize", handleResize);
     window.addEventListener("scroll", handleScroll);
-
+    //Desktop
     if (!responsive) {
       if (activeIndex === 1) {
         setHeight("640vh");

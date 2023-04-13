@@ -44,11 +44,10 @@ function Asesores({ setAsesores }) {
         />
         <div>
           <h3 className="asesor-title">
-            Te recomendamos elegir un asesor según tu país
+            ¡Agenda una cita con uno de nuestros asesores!
           </h3>
           <p className="asesor-subtitle">
-            Y si no encuentras el tuyo, siéntete libre de escoger a cualquiera
-            de los 3
+            Estamos convencidos de que te guiarán en el proceso de la licitación
             <span role="img" aria-label="smiley face">
               😁
             </span>
@@ -69,11 +68,20 @@ function Asesores({ setAsesores }) {
             />
             {drop1 && (
               <div className="container-paises">
+                <img src={mexico} alt="" />
+                <img src={colombia} alt="" />
+                <img src={republicaDominicana} alt="" />
+                <img src={argentina} alt="" />
+                <img src={spain} alt="" />
                 <img src={peru} alt="" />
                 <img src={chile} alt="" />
                 <img src={panama} alt="" />
                 <img src={bolivia} alt="" />
                 <img src={costaRica} alt="" />
+                <img src={mexico} alt="" />
+                <img src={canada} alt="" />
+                <img src={india} alt="" />
+                <img src={suiza} alt="" />
               </div>
             )}
           </div>
@@ -116,6 +124,15 @@ function Asesores({ setAsesores }) {
                 <img src={republicaDominicana} alt="" />
                 <img src={argentina} alt="" />
                 <img src={spain} alt="" />
+                <img src={peru} alt="" />
+                <img src={chile} alt="" />
+                <img src={panama} alt="" />
+                <img src={bolivia} alt="" />
+                <img src={costaRica} alt="" />
+                <img src={mexico} alt="" />
+                <img src={canada} alt="" />
+                <img src={india} alt="" />
+                <img src={suiza} alt="" />
               </div>
             )}
           </div>
@@ -157,6 +174,16 @@ function Asesores({ setAsesores }) {
             />
             {drop3 && (
               <div className="container-paises">
+                <img src={mexico} alt="" />
+                <img src={colombia} alt="" />
+                <img src={republicaDominicana} alt="" />
+                <img src={argentina} alt="" />
+                <img src={spain} alt="" />
+                <img src={peru} alt="" />
+                <img src={chile} alt="" />
+                <img src={panama} alt="" />
+                <img src={bolivia} alt="" />
+                <img src={costaRica} alt="" />
                 <img src={mexico} alt="" />
                 <img src={canada} alt="" />
                 <img src={india} alt="" />
