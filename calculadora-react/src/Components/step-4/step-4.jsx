@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import quintaSeccion from "../../img/quinta-seccion.svg";
 import "./step-4.css";
 import Correos from "./correos";
 import Mensajes from "./mensajes";
@@ -104,7 +103,9 @@ function Step5({ nombreEmpresa, nombrePersona }) {
           </div>
         </div>
         <div className="second-section">
-          <img src={quintaSeccion} alt="implementación" />
+          <div className="contenedor-video">
+            <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/6JXZGlM3mgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <AnimatePresence>
