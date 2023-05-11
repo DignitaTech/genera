@@ -12,7 +12,7 @@
   gap: 40px;
 }
 .construccion-proyecto .first-section {
-  width: 65%;
+  width: 55%;
 }
 .construccion-proyecto .first-section h3 {
   font-size: clamp(1.8rem, 5vw, 3rem);
@@ -74,13 +74,35 @@
   }
 }
 .construccion-proyecto .second-section {
-  width: 35%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.construccion-proyecto .second-section img {
+/** VIDEO */
+.construccion-proyecto .second-section .contenedor-video {
   width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*background-image: url("../img/login.png");*/
+  background-position: center;
+  background-size: cover;
+}
+.construccion-proyecto .second-section .video {
+  width: 395px;
+  height: 223px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #a0a0a0;
+}
+@media (max-width: 430px) {
+  .construccion-proyecto .second-section .video {
+    width: 85%;
+    height: 200px;
+    border-radius: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -95,7 +117,7 @@
     width: 100%;
   }
   .construccion-proyecto .second-section {
-    width: 35%;
+    width: 100%;
   }
 }
 

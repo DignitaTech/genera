@@ -82,7 +82,7 @@ function Step3({ nombreEmpresa, setAsesores }) {
           </div>
         </div>
         <div className="second-section">
-          
+          <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/8BCupP2XCC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <AnimatePresence>
