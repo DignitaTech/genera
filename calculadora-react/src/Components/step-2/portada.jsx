@@ -1,6 +1,5 @@
 import React from "react";
 import "./step-2.css";
-import videoFull from "../../img/video-full.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 function Portada({ setAsesores }) {
@@ -49,7 +48,9 @@ function Portada({ setAsesores }) {
           </div>
         </div>
         <div className="second-section">
-          <img src={videoFull} alt="video" />
+          <div className="contenedor-video">
+            <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/9WS2bCzslMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>

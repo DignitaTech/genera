@@ -6,7 +6,6 @@ import {
   faTriangleExclamation,
 } from "@fortawesome/free-solid-svg-icons";
 import GoogleSlideIcon from "../../img/google-slides-icon.svg";
-import videoFull from "../../img/video-full.svg";
 import { AnimatePresence } from "framer-motion/dist/framer-motion";
 import GoogleSlide from "./google-slide";
 function Step3({ nombreEmpresa, setAsesores }) {
@@ -83,7 +82,7 @@ function Step3({ nombreEmpresa, setAsesores }) {
           </div>
         </div>
         <div className="second-section">
-          <img src={videoFull} alt="video" />
+          
         </div>
       </div>
       <AnimatePresence>
