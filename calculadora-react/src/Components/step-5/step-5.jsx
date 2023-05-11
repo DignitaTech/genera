@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./step-5.css";
 import Copy from "./copy";
 import { AnimatePresence } from "framer-motion/dist/framer-motion";
-import cuartaSeccion from "../../img/cuarta-seccion.svg";
 function Step4({ setAsesores }) {
   const [showCopy, setShowCopy] = useState(false);
   return (
@@ -38,7 +37,9 @@ function Step4({ setAsesores }) {
           </div>
         </div>
         <div className="second-section">
-          <img src={cuartaSeccion} alt="asesoramiento-personalizado" />
+          <div className="contenedor-video">
+            <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/ELBkITFLdvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <AnimatePresence>
