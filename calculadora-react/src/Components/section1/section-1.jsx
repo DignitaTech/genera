@@ -1,7 +1,5 @@
 import React from "react";
 import "./section-1.css";
-import imagenPortada2 from "../../img/imagen-portada.png";
-import imagenPortada1 from "../../img/imagen-portada-1.png";
 
 function Section1({ handleTranslate }) {
   return (
@@ -37,8 +35,9 @@ function Section1({ handleTranslate }) {
           </div>
         </div>
         <div className="columna2">
-          <img className="imagen-1" src={imagenPortada1} alt="slides-dignita" />
-          <img className="imagen-2" src={imagenPortada2} alt="slides-dignita" />
+          <div className="contenedor-video">
+          <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/0kYSnfaZYGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </section>
     </div>
