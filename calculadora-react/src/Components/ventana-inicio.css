@@ -190,16 +190,48 @@ input:focus {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  overflow: visible;
+  flex-direction: column;
 }
-.login .columna2 img {
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
+
+/** VIDEO */
+.login .columna2 .contenedor-video {
+  width: 110%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../img/login.png");
+  background-position: center;
+  background-size: cover;
 }
+.login .columna2 .video {
+  width: 85%;
+  border-radius: 20px;
+}
+.login .columna2 p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
 
 .columna2-responsive {
   display: none;
+}
+.login .columna2-responsive .contenedor-video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+
+}
+.login .columna2-responsive .video {
+  width: 85%;
+  height: 200px;
+  border-radius: 20px;
 }
 /* RESPONSIVE */
 
@@ -218,6 +250,7 @@ input:focus {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25),
       inset 0px 4px 15px rgba(0, 0, 0, 0.25);
     background-color: white;
+    height: auto;
   }
   .contenedor-login .login {
     max-width: 500px;
@@ -228,7 +261,7 @@ input:focus {
   .contenedor-login .columna2-responsive {
     display: flex;
     position: relative;
-    height: 120px;
+    height: 330px;
     width: 100%;
     top: -30px;
   }
@@ -289,6 +322,12 @@ input:focus {
     font-size: 15px;
     padding: 8px 34px;
   }
+  .contenedor-login .columna1 {
+    height: auto;
+  }
+  .contenedor-login .columna2-responsive {
+    height: 330px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -315,5 +354,12 @@ input:focus {
 
   .contenedor-login .columna1 > * {
     margin-top: 12px;
+  }
+
+  .contenedor-login .columna1 {
+    height: auto;
+  }
+  .contenedor-login .columna2-responsive {
+    height: 330px;
   }
 }

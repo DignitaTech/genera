@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./ventana-inicio.css";
 import logodignita from "../img/logodignita.jpg";
-import login from "../img/login.png";
 import digni from "../img/artificial-intelligence-head.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
@@ -106,7 +105,10 @@ function VentanaInicio({
               </div>
             </div>
             <div className="columna2">
-              <img className="first" src={login} alt="logo" />
+              <p>¡Mírame 👀! 😊</p>
+              <div className="contenedor-video">
+                <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/yuJeAGivmJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
             </div>
             <div className="columna2-responsive">
               <img src={digni} alt="digni-head" />
@@ -115,6 +117,10 @@ function VentanaInicio({
                 <br />
                 En Dignita queremos conocerte. ¡Cuéntanos!
               </section>
+
+              <div className="contenedor-video">
+                <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/yuJeAGivmJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
             </div>
           </motion.div>
         )}
