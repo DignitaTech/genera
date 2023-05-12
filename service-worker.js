@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/genera/precache-manifest.f10e67a9a471f4d5cc439230eb9f0b61.js"
+  "/DignitaTech/genera.git/precache-manifest.ba0feac684142b3c9a376a0d3d2999b9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/genera/index.html", {
+workbox.routing.registerNavigationRoute("/DignitaTech/genera.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
